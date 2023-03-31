@@ -4,7 +4,7 @@
 <p align="center">
   <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Para-Devs">Para Devs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-para-devs">Para Devs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-autor">Autor</a>
@@ -14,7 +14,8 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-<br><br>
+<br>
+
 ## 🛈 Sobre
 O Sistema de CRUD em PHP é um projeto que visa desenvolver um aplicativo web capaz de realizar as quatro principais operações em um banco de dados: `Create` (criação de novos registros), `Read` (leitura de registros existentes), `Update` (atualização de registros existentes) e `Delete` (exclusão de registros existentes). Essas operações são realizadas por meio de uma interface amigável, onde o usuário pode inserir, visualizar, editar e excluir dados de forma fácil e intuitiva. O sistema é desenvolvido em PHP, uma das linguagens de programação mais populares para o desenvolvimento web, e utiliza um banco de dados para armazenar as informações.
 
@@ -34,6 +35,7 @@ A seguir, um exemplo do Sistema de CRUD em PHP em pleno funcionamento. Com esta 
 
 
 ## 👨‍💻 Para Devs
+
 ### Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
@@ -56,7 +58,7 @@ $ composer install
 
 - Banco de dados
 ```sql
-// Crie um banco de dados com o nome `crudPHP` e execute as seguintes queries para criar as tabelas `users` e `sectors`.
+-- Crie um banco de dados com o nome `crudPHP` e execute as seguintes queries para criar as tabelas `users` e `sectors`.
 
 CREATE DATABASE crudPHP;
 USE CrudPHP;
@@ -98,7 +100,7 @@ $ php -S localhost:8000 -t public/
 ### Banco de Dados
 Abaixo temos o diagrama de entidade relacionamento do bando de dados criado para que a aplicação funcione.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/marlonakio/Crud-Cadastro-PHP/7ff2e0326b04377053984f65a10b6fc509bac015/.github/db.svg?raw=true" alt="Exemplo da aplicação web" width="70%"/>
+  <img src="https://raw.githubusercontent.com/marlonakio/Crud-Cadastro-PHP/7ff2e0326b04377053984f65a10b6fc509bac015/.github/db.svg?raw=true" alt="Exemplo da aplicação web" width="15%"/>
 
 ## 🚀 Tecnologias
 
