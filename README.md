@@ -38,7 +38,7 @@ A seguir, um exemplo do Sistema de CRUD em PHP em pleno funcionamento. Com esta 
 
 ### Instalação
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Antes de começar, você vai precisar ter instalado as seguintes ferramentas:
 [Git](https://git-scm.com), [Xampp](https://www.apachefriends.org/pt_br/download.html) e [Composer](https://getcomposer.org/) no computador.
 Além disso é bom ter um editor de código-fonte para trabalhar com o código, como o [VSCode](https://code.visualstudio.com/).
 
