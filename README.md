@@ -79,7 +79,7 @@ CREATE TABLE sectors (
 
 - .env (exemplo)
 ```env
-// Preencha o arquivo env com as informações do seu banco
+# Preencha o arquivo env com as informações do seu banco
 
 DRIVER="mysql"
 USER="root"
