@@ -58,10 +58,11 @@ $ composer install
 
 - Banco de dados
 ```sql
--- Crie um banco de dados com o nome `crudPHP` e execute as seguintes queries para criar as tabelas `users` e `sectors`.
+-- Crie um banco de dados com o nome `crudPHP`
+-- E execute as seguintes queries para criar as tabelas `users` e `sectors`.
 
 CREATE DATABASE crudPHP;
-USE CrudPHP;
+USE crudPHP;
 
 CREATE TABLE users (
   id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -76,7 +77,7 @@ CREATE TABLE sectors (
 );
 ```
 
-- .env
+- .env (exemplo)
 ```env
 // Preencha o arquivo env com as informações do seu banco
 
