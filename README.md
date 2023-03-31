@@ -39,12 +39,12 @@ A seguir, um exemplo do Sistema de CRUD em PHP em pleno funcionamento. Com esta 
 ### Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com) e [Xampp](https://www.apachefriends.org/pt_br/download.html) no computador.
-Além disso é bom ter um editor de código-fonte para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+[Git](https://git-scm.com), [Xampp](https://www.apachefriends.org/pt_br/download.html) e [Composer](https://getcomposer.org/) no computador.
+Além disso é bom ter um editor de código-fonte para trabalhar com o código, como o [VSCode](https://code.visualstudio.com/).
 
 > ⚠ Assim que clonar o repositório, antes de executar o servidor é imprescindível configurar o arquivo .env para poder se conectar ao seu banco de dados.
-- Clonar e executar
 
+ - Clonar e instalar dependências
 ```bash
 # Clone este repositório.
 $ git clone https://github.com/marlonakio/Crud-Cadastro-PHP.git
