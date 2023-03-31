@@ -101,7 +101,7 @@ $ php -S localhost:8000 -t public/
 ### Banco de Dados
 Abaixo temos o diagrama de entidade relacionamento do bando de dados criado para que a aplicação funcione.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/marlonakio/Crud-Cadastro-PHP/7ff2e0326b04377053984f65a10b6fc509bac015/.github/db.svg?raw=true" alt="Exemplo da aplicação web" width="15%"/>
+  <img src="https://raw.githubusercontent.com/marlonakio/Crud-Cadastro-PHP/7ff2e0326b04377053984f65a10b6fc509bac015/.github/db.svg?raw=true" alt="Diagrama ER do Banco de Dados" width="15%"/>
 
 ## 🚀 Tecnologias
 
