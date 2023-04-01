@@ -30,7 +30,7 @@ A seguir, um exemplo do Sistema de CRUD em PHP em pleno funcionamento. Com esta 
 
 
 <p align="center">
-  <img src="https://github.com/marlonakio/NLW-Habits-Ignite/blob/main/.github/web/web-demo.gif?raw=true" alt="gif da aplicação web" width="100%"/>
+  <img src="https://github.com/marlonakio/Crud-Cadastro-PHP/blob/main/.github/CrudPHP.gif?raw=true" alt="gif da aplicação web" width="100%"/>
 
 
 
@@ -60,27 +60,27 @@ $ composer install
 ```sql
 -- Crie um banco de dados com o nome `crudPHP`
 -- E execute as seguintes queries para criar as tabelas `users` e `sectors`.
-
 CREATE DATABASE crudPHP;
 USE crudPHP;
-
 CREATE TABLE users (
   id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  nome VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL,
   email VARCHAR(255) NOT NULL,
   id_sectors VARCHAR(255) NOT NULL
 );
-
 CREATE TABLE sectors (
   id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   description VARCHAR(255) NOT NULL
 );
+
+-- Crie os setores com o comando INSERT
+USE crudPHP;
+INSERT INTO sectors (description) VALUES ('Nome_Do_Setor');
 ```
 
 - .env (exemplo)
 ```env
 # Preencha o arquivo env com as informações do seu banco
-
 DRIVER="mysql"
 USER="root"
 PASSWORD=""
@@ -93,7 +93,6 @@ BASE_URL="http://localhost:8000"
 ```bash
 # Execute a aplicação em modo de desenvolvimento.
 $ php -S localhost:8000 -t public/
-
 
 # O servidor inciará na porta 8000 - acesse <http://localhost:8000>
 ```
