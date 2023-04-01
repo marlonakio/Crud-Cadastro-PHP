@@ -30,7 +30,7 @@ A seguir, um exemplo do Sistema de CRUD em PHP em pleno funcionamento. Com esta 
 
 
 <p align="center">
-  <img src="https://github.com/marlonakio/Crud-Cadastro-PHP/blob/main/.github/CrudPHP.gif?raw=true" alt="gif da aplicação web" width="70%"/>
+  <img src="https://github.com/marlonakio/Crud-Cadastro-PHP/blob/main/.github/CrudPHP.gif?raw=true" alt="gif da aplicação web" width="80%"/>
 
 
 
