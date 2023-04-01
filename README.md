@@ -30,7 +30,7 @@ A seguir, um exemplo do Sistema de CRUD em PHP em pleno funcionamento. Com esta 
 
 
 <p align="center">
-  <img src="https://github.com/marlonakio/Crud-Cadastro-PHP/blob/main/.github/CrudPHP.gif?raw=true" alt="gif da aplicação web" width="100%"/>
+  <img src="https://github.com/marlonakio/Crud-Cadastro-PHP/blob/main/.github/CrudPHP.gif?raw=true" alt="gif da aplicação web" width="70%"/>
 
 
 
@@ -100,7 +100,7 @@ $ php -S localhost:8000 -t public/
 ### Banco de Dados
 Abaixo temos o diagrama de entidade relacionamento do bando de dados criado para que a aplicação funcione.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/marlonakio/Crud-Cadastro-PHP/7ff2e0326b04377053984f65a10b6fc509bac015/.github/db.svg?raw=true" alt="Diagrama ER do Banco de Dados" width="15%"/>
+  <img src="https://raw.githubusercontent.com/marlonakio/Crud-Cadastro-PHP/3a99227de54d12d524e2258b3f2189fb87094d89/.github/db.svg?token=ANKFQWX5W3XWU3V2D7NVP63EE6SY4" alt="Diagrama ER do Banco de Dados" width="15%"/>
 
 ## 🚀 Tecnologias
 
